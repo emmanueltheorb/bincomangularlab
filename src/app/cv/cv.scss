@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.side-by-side-container {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  gap: 2rem;
+}
+
+.list {
+
+  h4 {
+    margin-bottom: 1rem;
+    color: rgb(55, 80, 194);
+  }
+
+  ul {
+    max-width: 300px;
+    list-style: none;
+
+    li {
+      padding: 3px 0px;
+    }
+  }
+}
+
+.cv-section {
+    margin: 0px 1.5rem;
+
+  h4 {
+    margin-bottom: 1rem;
+    color: rgb(55, 80, 194);
+  }
+
+  p {
+    max-width: 300px;
+    line-height: 26px;
+  }
+}
